@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data noupdate="1">
+        <record id="hr_department_1" model="hr.department">
+            <field name="name">FINANZAS</field>
+            <field name="description">Departamento de finanzas</field>
+        </record>
+
+        <record id="hr_department_2" model="hr.department">
+            <field name="name">RECURSOS HUMANOS</field>
+            <field name="description">Departamento de recursos humanos</field>
+        </record>
+
+        <record id="hr_department_3" model="hr.department">
+            <field name="name">ALMACEN</field>
+            <field name="description">Departamento de almacen</field>
+        </record>
+
+        <record id="hr_department_4" model="hr.department">
+            <field name="name">SOPORTE TECNICO</field>
+            <field name="description">Departamento de soporte tecnico</field>
+        </record>
+
+        <record id="hr_department_5" model="hr.department">
+            <field name="name">VENTAS</field>
+            <field name="description">Departamento de ventas</field>
+        </record>
+
+        <record id="hr_department_6" model="hr.department">
+            <field name="name">COMPRAS</field>
+            <field name="description">Departamento de COMPRAS</field>
+        </record>
+
+        <record id="hr_department_7" model="hr.department">
+            <field name="name">PROYECTOS</field>
+            <field name="description">Departamento de PROYECTOS</field>
+        </record>
+
+        <record id="hr_department_8" model="hr.department">
+            <field name="name">SISTEMAS</field>
+            <field name="description">Departamento de sistemas</field>
+        </record>
+
+        <record id="hr_employee_1" model="hr.employee">
+            <field name="first_name">JUAN</field>
+            <field name="last_name">Perez</field>
+            <field name="department_id" ref="hr_department_1" />
+        </record>
+
+        <record id="hr_employee_2" model="hr.employee">
+            <field name="first_name">Paco</field>
+            <field name="last_name">Perez</field>
+            <field name="department_id" ref="hr_department_2" />
+        </record>
+
+        <record id="hr_employee_3" model="hr.employee">
+            <field name="first_name">Pedro</field>
+            <field name="last_name">Perez</field>
+            <field name="department_id" ref="hr_department_3" />
+        </record>
+
+        <record id="hr_employee_4" model="hr.employee">
+            <field name="first_name">Miguel</field>
+            <field name="last_name">Perez</field>
+            <field name="department_id" ref="hr_department_5" />
+        </record>
+
+        <record id="hr_employee_5" model="hr.employee">
+            <field name="first_name">Angel</field>
+            <field name="last_name">Perez</field>
+            <field name="department_id" ref="hr_department_5" />
+        </record>
+    </data>
+</odoo>
