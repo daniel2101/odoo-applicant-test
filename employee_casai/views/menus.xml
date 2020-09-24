@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <menuitem id="parent_menu" name="Casai" />
+        <menuitem id="employee_menu" name="People and Control" parent="parent_menu"/>
+    </data>
+</odoo>
